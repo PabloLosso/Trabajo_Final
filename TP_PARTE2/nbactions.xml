@@ -15,7 +15,7 @@
                 <exec.appArgs>"src\\main\\java\\resultados2.csv" "src\\main\\java\\pronostico2.csv"</exec.appArgs>
                 <exec.mainClass>${packageClassName}</exec.mainClass>
                 <exec.executable>java</exec.executable>
-                <exec.workingdir>C:\Temp\TP\TP_PARTE2\</exec.workingdir>
+                <exec.workingdir>C:\Temp\Trabajo_Final\TP_PARTE2</exec.workingdir>
             </properties>
         </action>
         <action>
@@ -34,7 +34,7 @@
                 <exec.mainClass>${packageClassName}</exec.mainClass>
                 <exec.executable>java</exec.executable>
                 <jpda.listen>true</jpda.listen>
-                <exec.workingdir>C:\Temp\TP\TP_PARTE2\</exec.workingdir>
+                <exec.workingdir>C:\Temp\Trabajo_Final\TP_PARTE2</exec.workingdir>
             </properties>
         </action>
         <action>
@@ -51,7 +51,7 @@
                 <exec.args>${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}</exec.args>
                 <exec.mainClass>${packageClassName}</exec.mainClass>
                 <exec.executable>java</exec.executable>
-                <exec.workingdir>C:\Temp\TP\TP_PARTE2\</exec.workingdir>
+                <exec.workingdir>C:\Temp\Trabajo_Final\TP_PARTE2</exec.workingdir>
                 <exec.appArgs>"src\\main\\java\\resultados2.csv" "src\\main\\java\\pronostico2.csv"</exec.appArgs>
             </properties>
         </action>
